@@ -1,36 +1,36 @@
 public class Adder {
 
     // instance variable
-    private Str name;
+    private String name;
     private int counter;
     private int increment;
 
     // ---- constructors ----
-    public Adder(Str name) {
+    public Adder(String name) {
         this.name = name;
         counter = 0; // default value
         increment = 0; // default value
     }
 
-    public Adder(Str name, int counter) {
+    public Adder(String name, int counter) {
         this.name = name;
         this.counter = counter;
         increment = 0; // default value
     }
 
-    public Adder(Str name, int counter, int increment) {
+    public Adder(String name, int counter, int increment) {
         this.name = name;
         this.counter = counter;
         this.increment = increment;
     }
 
-    public Adder(Str name, int increment, int counter) {
+    public Adder(String name, int increment, int counter) {
         this.name = name;
         this.counter = counter;
         this.increment = increment;
     }
 
-    public Adder(int counter, int increment, Str name) {
+    public Adder(int counter, int increment, String name) {
         this.name = name;
         this.counter = counter;
         this.increment = increment;
