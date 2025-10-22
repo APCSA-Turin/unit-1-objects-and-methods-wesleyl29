@@ -29,6 +29,7 @@ public class RunnerThing {
                 System.out.println("+5 points: last 2 letters of previous match first 2 letters of current; SCORE: "+points);
             }
             if (word2.indexOf(word1.substring(0,1))!=-1){
+                points+=3;
                 System.out.println("+3 points: first letter of previous is found in current; SCORE: "+points);
             }
             wordCount+=1;
